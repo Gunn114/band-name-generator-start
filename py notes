@@ -1,0 +1,48 @@
+# the print () function will print what is requested
+print ('Day 1 - Python Print Funtion')
+print('The function is declared like this:')
+print("print('what to print')")
+
+# a simple way of having two lines of code without constsntly typing print()
+print ("Hello World!\nPython is great!")
+
+# + + is used to create a space in a required sentence - string concatination
+print ("Hello" + " " + "Dannii")
+
+print("Day 1 - String Manipulation")
+print('String Concatenation is done with the "+" sign.')
+print('e.g. print("Hello " + "world")')
+print('New lines can be created with a backslash and n.')
+
+# input () will get user to input in the console
+# Then print () will print the word "Hello" and the user input
+print("Hello " + input("What is your name?"))
+print(len('Danielle'))
+
+# to give a number output of characters in the name e.g 6, use the len() funtion
+print("Hello " + input("what is your name?"))
+print(len('dannii'))
+
+#to place this in a single string to work for multiple users, use this:
+print( len( input("what is your name" ) ) )
+#Notes
+#if input was "jack"
+#1st print (len("jack"))
+#2nd print(4)
+
+name = input("What is your name?")
+print(name)
+name = "donna"
+print(name)
+
+#using variables to carryout print commands
+name = "donna"
+print(name)
+
+name = "dannii"
+print(name)
+
+#variables can be use to reduce the amount of code:
+name = input("what is your name?")
+length = len(name)
+print(length)
